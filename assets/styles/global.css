@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+}
+#container {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: 80px calc(100vh - 80px);
+    background-color: orangered;
+}
+
+#aside {
+    grid-area: 1/1/3/2;
+    overflow-y: auto;
+    background-color: orange;
+}
+
+#header {
+    grid-area: 1/2/2/2;
+    background-color: red;
+}
+
+#content {
+    overflow-y: auto;
+    grid-area: 2/2/2/2;
+    background-color: orangered;
+}
+
+#description {
+    background: blue;
+    height: 260px;
+}
+
+#cards {
+    background-color: green;
+    height: 100vh;
+}

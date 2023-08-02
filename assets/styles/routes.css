@@ -1,4 +1,65 @@
-* {
+/* {
     border: 1px solid red;
+}*/
+
+
+
+.perfil3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
 }
 
+.perfil2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 70px;
+}
+
+.perfil1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 90px;
+}
+
+.perfil__imagem {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 110px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    color: aliceblue;
+}
+
+.routes__names {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #3e3f41;
+}
+
+.routes__icons {
+    color: #3e3f41;
+    width: 16px;
+    height: 16px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #171819;
+    color: #3e3f41;
+    border: 1px solid #3e3f41;
+    border-radius: 4px;
+    cursor: pointer;
+}

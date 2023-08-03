@@ -1,8 +1,17 @@
-/* {
+* {
     border: 1px solid red;
-}*/
+}
 
+.container{
+    display: flex;
+}
 
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    color: aliceblue;
+    flex-direction: row;
+}
 
 .perfil3 {
     width: 40px;
@@ -10,6 +19,8 @@
     border-radius: 50%;
     position: absolute;
     right: 50px;
+    border: 2px solid #171819;
+
 }
 
 .perfil2 {
@@ -17,7 +28,8 @@
     height: 40px;
     border-radius: 50%;
     position: absolute;
-    right: 70px;
+    right: 80px;
+    border: 2px solid #171819;
 }
 
 .perfil1 {
@@ -25,7 +37,8 @@
     height: 40px;
     border-radius: 50%;
     position: absolute;
-    right: 90px;
+    right: 110px;
+    border: 2px solid #171819;
 }
 
 .perfil__imagem {
@@ -33,13 +46,8 @@
     height: 40px;
     border-radius: 50%;
     position: absolute;
-    right: 110px;
-}
-
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 90px;
-    color: aliceblue;
+    right: 140px;
+    border: 2px solid #171819;
 }
 
 .routes__names {
@@ -60,6 +68,14 @@ p {
     background-color: #171819;
     color: #3e3f41;
     border: 1px solid #3e3f41;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
 }
+
+.button__circular {
+    padding: 25px 25px;
+    background-color: #171819;
+    color: #3e3f41;
+    border: 1px solid #3e3f41;
+    border-radius: 50%;
+    cursor: pointer;

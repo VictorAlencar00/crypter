@@ -1,0 +1,144 @@
+.card__disposition {
+    display: flex;
+    flex-direction: row;
+}
+.card__principal {
+    position: relative;
+    margin: 10px;
+    width: 225px;
+    height: 420px;
+    background-color: #171819;
+}
+.card__header {
+    display: flex;
+    justify-content: space-between;
+}
+.card__header2 {
+    display: flex;
+    justify-content: space-between;
+}
+.card__header2 p {
+    margin: 10px;
+    padding: 5px;
+    font-size: 10px;
+    background-color: #BFBCFC;
+    border-radius: 15.5px;
+}
+.card__header3 {
+    display: flex;
+    justify-content: space-between;
+}
+.card__header3 p {
+    margin: 10px;
+    padding: 5px;
+    font-size: 10px;
+    background-color: #FAC89B;
+    border-radius: 15.5px;
+}
+.card__header p {
+    margin: 10px;
+    padding: 5px;
+    font-size: 10px;
+    background-color: #C7F1FF;
+    border-radius: 15.5px;
+}
+.card__header__options {
+    margin: 10px;
+    padding: 5px;
+    font-size: 10px;
+}
+.card__header__option__click {
+    color: gray;
+    text-decoration: none;
+}
+.card__one {
+    width: 200px;
+    height: 110px;
+    margin: 10px auto auto auto;
+    padding: 10px;
+    background-color: #202123;
+    border-radius: 8px;
+    
+}
+.card__two {
+    width: 200px;
+    height: 230px;
+    margin: 10px auto auto auto;
+    padding: 10px;
+    background-color: #202123;
+    border-radius: 8px;
+}
+.card__class {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #606062;
+}
+.card__title {
+    display: flex;
+    margin: 2px auto ;
+    color: #fff;
+    font-size: 12.5px;
+}
+.card__colaborators {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.colaborador {
+    border-radius: 50%;
+}
+.c2 {
+    position: relative;
+    right: 10px;
+}
+.c3 {
+    position: relative;
+    right: 20px;
+}
+.c4 {
+    position: relative;
+    right: 30px;
+}
+.card__horizontal__divisor {
+    position: relative;
+    right: 25px;
+    margin: 5px;
+    width: 0.5px;
+    height: 18px;
+    background-color: #606062;
+}
+.card__icon__flag__low {
+    position: relative;
+    right: 25px;
+}
+.card__text__low {
+    position: relative;
+    right: 20px;
+    font-size: 10px;
+    color: #606062;
+}
+.card__image {
+    border-radius: 8px;
+}
+.card__vertical__divider {
+    margin: 5px;
+    width: 170.5px;
+    height: 1px;
+    background-color: #606062;
+}
+.card__status {
+    display: flex;
+    margin: 10px auto auto 5px;
+    gap: 10px;
+}
+.card__status div{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 10px;
+    color: #606062;
+}
+.card__status__text {
+    color: #B45E4E;
+}

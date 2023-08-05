@@ -1,70 +1,82 @@
-* {
-    border: 1px solid red;
+.routes {
+    padding: 3.5rem 10px 10px;
+    background-color: #171819;
 }
 
-.container{
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    fill: #3e3f41;;
 }
 
+.breadcrumb a {
+    text-decoration: none;
+    color: #3e3f41;;
+}
 
+.breadcrumb svg {
+    margin: auto 10px;
+    color: #3e3f41;
+}
 
-p {
+.grouped_area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 90px;
+    font-size: 70px;
+    font-weight: unset;
     color: aliceblue;
-    flex-direction: row;
+    margin: 0 auto;
 }
 
-.perfil3 {
+.members_area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.avatars {
+    position: relative;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.avatars img,
+.avatar_fourth {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    border: 1px solid #171819;
     position: absolute;
-    right: 50px;
-    border: 2px solid #171819;
-
 }
 
-.perfil2 {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    position: absolute;
-    right: 80px;
-    border: 2px solid #171819;
+.avatar_second {
+    left: 20px;
 }
 
-.perfil1 {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    position: absolute;
-    right: 110px;
-    border: 2px solid #171819;
+.avatar_third {
+    left: 40px;
 }
 
-.perfil__imagem {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    position: absolute;
-    right: 140px;
-    border: 2px solid #171819;
-}
-
-.routes__names {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 16px;
-    color: #3e3f41;
-}
-
-.routes__icons {
-    color: #3e3f41;
-    width: 16px;
-    height: 16px;
+.avatar_fourth {
+    left: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #171819;
+    color: #3e3f41;;
+    border: 1px solid #3e3f41;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .button {
-    padding: 10px 20px;
+
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     background-color: #171819;
@@ -72,13 +84,18 @@ p {
     border: 1px solid #3e3f41;
     border-radius: 8px;
     cursor: pointer;
+
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
 }
 
 .button__circular {
-    padding: 15px 15px;
-    background-color: #171819;
-    color: aliceblue;
-    border: 1px solid #3e3f41;
     border-radius: 50%;
-    cursor: pointer;
+}
+
+.button__circular svg {
+    fill: #fff;
 }

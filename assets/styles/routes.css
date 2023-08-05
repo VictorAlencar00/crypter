@@ -3,8 +3,9 @@
 }
 
 .container{
-    display: flex;
 }
+
+
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -29,7 +30,7 @@ p {
     border-radius: 50%;
     position: absolute;
     right: 80px;
-    border: #171819;
+    border: 2px solid #171819;
 }
 
 .perfil1 {
@@ -38,6 +39,7 @@ p {
     border-radius: 50%;
     position: absolute;
     right: 110px;
+    border: 2px solid #171819;
 }
 
 .perfil__imagem {
@@ -46,6 +48,7 @@ p {
     border-radius: 50%;
     position: absolute;
     right: 140px;
+    border: 2px solid #171819;
 }
 
 .routes__names {
@@ -62,18 +65,20 @@ p {
 
 .button {
     padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     background-color: #171819;
-    color: #3e3f41;
+    color: aliceblue;
     border: 1px solid #3e3f41;
     border-radius: 8px;
     cursor: pointer;
 }
 
 .button__circular {
-    padding: 25px 25px;
+    padding: 15px 15px;
     background-color: #171819;
-    color: #3e3f41;
+    color: aliceblue;
     border: 1px solid #3e3f41;
     border-radius: 50%;
     cursor: pointer;
+}

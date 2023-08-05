@@ -5,9 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crypter</title>
     <link rel="stylesheet" href="assets/styles/global.css" />
+    <link rel="stylesheet" href="assets/styles/aside.css">
   </head>
   <body id="container">
-    <aside id="aside">aside</aside>
+    <aside id="aside">
+      <div class="aside__tasky">
+        <h3 class="aside__tasky__title">
+          Tasky
+        </h3>
+        <a class="aside__tasky__anchor" href="#">
+          <img src="assets/imgs/voltar-seta.png" alt="">
+        </a>
+      </div>
+
+      <div>
+        <div class="aside__folder">
+          <img class="aside__folder__img" src="assets/imgs/aside/folder-img.png" alt="">
+          <div class="aside__folder__titles">
+            <p>Folder</p>
+            <h3>Ali's team</h3>
+          </div>
+          <img class="aside__folder__updownArrows" 
+            src="assets/imgs/aside/seta-cima-baixo.png"
+            alt=""
+          >
+        </div>
+
+        <div class="aside__input">
+          <img class="aside__input__img" src="assets/imgs/aside/search-img.png" alt="">
+          <input 
+           class="aside__input__searchBar"
+           type="text"
+           placeholder="Move App"
+          >
+        </div>
+      </div>
+      
+      <div class="aside__navs">
+        <nav class="aside__nav">
+          <p class="nav__title">MENU</p>
+          <ul class="nav__list">
+            <li class="nav__list__item">
+              <a href="">
+                <img class="li__icon" src="assets/imgs/aside/dashboard-img.png" alt="">
+                <p class="link__description">Dashboard</p>
+              </a>
+            </li>
+            <li class="nav__list__item">
+              <a href="">
+                <img class="li__icon" src="assets/imgs/aside/projects-img.png" alt="">
+                <p class="link__description">Projects</p>
+                <img class="list__item__additional" src="assets/imgs/aside/seta-abaixo.png"alt="">
+            </a>
+            </li>
+            <li class="nav__list__item">
+              <a href="">
+                <img class="li__icon" src="assets/imgs/aside/tasks-img.png" alt="">
+                <p class="link__description">Your tasks</p>
+                <img class="list__item__additional" src="assets/imgs/aside/tasks-number-img.png"alt="">
+              </a>
+            </li>
+            <li class="nav__list__item">
+              <a href="">
+                <img class="li__icon" src="assets/imgs/aside/calendar-img.png" alt="">
+                <p class="link__description">Calendar</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="aside__nav">
+          <p class="nav__title">GENERAL</p>
+          <ul class="nav__list">
+            <li class="nav__list__item">
+              <a href="">
+                <img class="li__icon" src="assets/imgs/aside/settings-img.png" alt="">
+                <p class="link__description">Setting</p>
+              </a>
+            </li>
+            <li class="nav__list__item">
+              <a href="">
+                <img class="li__icon" src="assets/imgs/aside/support-img.png" alt="">
+                <p class="link__description">Support</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+        <div class="aside__nightMode">
+          <a href="#">
+            <img class="aside__nightMode__img" src="assets/imgs/aside/darklight-img.png" alt="">
+          </a>
+        </div>
+        <div class="aside__user">
+          <img class="aside__user__img" src="assets/imgs/aside/user-img.jpg" alt="">
+          <div class="aside__user__titles">
+            <h3>Ryan Gosling</h3>
+            <p>@literalmenteeu</p>
+          </div>
+          <a href="#">
+            <img class="aside__user__downArrow" src="assets/imgs/aside/seta-abaixo.png" alt="">
+          </a>
+        </div>
+    </aside>
+    
     <header id="header">header</header>
     <main id="content">
       <section id="description">

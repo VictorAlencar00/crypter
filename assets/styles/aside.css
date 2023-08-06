@@ -24,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    width: 180px;
     padding-bottom: 20px;
     border-bottom: 1px solid var(--fontColor);
 }
@@ -35,6 +36,7 @@
 
 .aside__tasky__anchor > img {
     width: 30px;
+    height: 30px;
     padding: 5px;
     border-radius: 50%;
     border: 1px solid var(--borderColor);
@@ -70,25 +72,28 @@
 .aside__folder,
 .aside__user {
     display: flex;
-    width: 200px;
+    width: 180px;
     position: relative;
     align-items: center;
 }
 
+.aside__navs {
+    width: 180px;
+}
+
 .aside__folder__img,
 .aside__user__img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     padding: 2px;
 }
 
 .aside__folder__updownArrows,
 .aside__user__downArrow {
     position: absolute;
-    right: 0;
+    right: 0px;
     width: 15px;
     height: 15px;
-    padding: 0px;
 }
 
 .aside__input {
@@ -171,19 +176,17 @@
 }
 
 .aside__nightMode__img {
-    height: 40px;
+    width: 180px;
 }
 .aside__user__img {
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
 }
 
-/* @media (max-height: 768px) {
+@media (max-height: 768px) {
     #aside, .aside__navs{
         gap: 1vh;
     }
-    #aside {
-        padding: 5px 20px;
-    }
-} */
+    /* #aside {
+        padding: 5px;
+    } */
+}

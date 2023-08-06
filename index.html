@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crypter</title>
-    <link rel="stylesheet" href="assets/styles/global.css" />
-  </head>
-  <body id="container">
-    <aside id="aside">aside</aside>
-    <header id="header">header</header>
-    <main id="content">
-      <section id="description">
-        <div id="routes">routes</div>
-        <div id="filters">filters</div>
-      </section>
-      <section id="cards">cards</section>
-    </main>
-    <script src="assets/js/index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypter</title>
+  <link rel="stylesheet" href="assets/styles/global.css" />
+  <link rel="stylesheet" href="assets/styles/filters.css" />
+</head>
+
+<body id="container">
+  <aside id="aside">aside</aside>
+  <header id="header">header</header>
+  <main id="content">
+    <section id="description">
+      <div id="routes">routes</div>
+
+      <div id="filters" class="barra">
+        <div class="menu">
+          <a class="menu__items link__active" href="#">Tasks (24)</a>
+          <a class="menu__items" href="#">Objectives (12)</a>
+          <a class="menu__items" href="#">Watch List (2)</a>
+          <a class="menu__items" href="#">Favourite (7)</a>
+        </div>
+
+        <div class="menu_side">
+          <span class="side__color">View by</span>
+          <span class="side__items">
+            <button>grade</button>
+            <button>lista</button>
+          </span>
+        </div>
+      </div>
+
+    </section>
+    <section id="cards">cards</section>
+  </main>
+  <script src="assets/js/index.js"></script>
+</body>
+
 </html>

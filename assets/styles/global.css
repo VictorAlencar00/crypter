@@ -31,7 +31,8 @@
 }
 
 #description {
-    background: blue;
+    background: #fff;
+    /*background: #171819;*/
     height: 260px;
 }
 

@@ -1,8 +1,10 @@
 .barra {
     display: flex;
     justify-content: space-between;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
+    padding: 20px;
+    border: 1px solid #3e3f41;
 }
 .menu {
     display: flex;
@@ -11,21 +13,22 @@
 
 .menu__items {
     text-decoration: none;
-    color: #3e3f41;
+    color: #535558;
 }
 
-.menu__items a:hover {
-    color: black;
+/* teste
+menu__items a:hover {
+    color: red;
     transition: 500ms all;
-}
+}*/
 
 .link__active {
     position: relative;
+    color: #ffffff;
 }
 
 .link__active::after {
     background: #497ff8;
-    border-radius: var(--borderRadius-medium, 6px);
     bottom: calc(50% - 30px);
     content: "";
     height: 2px;
@@ -36,7 +39,23 @@
     z-index: 1;
 }
 
+.button__background {
+    background: #171819;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button__background svg {
+    fill: #535558;
+
+}
+
+.button__selected {
+    background: #27282b;
+}
+
 .side__color {
-    color: 
+    color: #535558;
 }
 

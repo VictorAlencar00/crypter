@@ -10,6 +10,7 @@
     width: 25vw;
     min-width: 25vh;
     height: auto;
+    min-height: 10vw;
     position: relative;
     overflow-x: hidden;
     padding: 5px;

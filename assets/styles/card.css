@@ -1,169 +1,166 @@
-.card {
+.organizar__cards {
     display: flex;
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    justify-content: space-evenly;
     flex-direction: row;
 }
 .card__principal {
-    width: 25vw;
-    min-width: 25vh;
-    height: auto;
-    position: relative;
-    overflow-x: hidden;
-    padding: 5px;
-    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 15px;
+    gap: 8px;
     background-color: #171819;
+    border: 1px solid #232425;
 }
 .card__header {
     display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
     justify-content: space-between;
 }
-.to__do {
-    margin: 10px;
-    padding: 5px;
-    font-size: 10px;
+.to-do {
+    padding: 10px;
+    border-radius: 16px;
     background-color: #C7F1FF;
-    border-radius: 15.5px;
 }
-.in__work {
-    margin: 10px;
-    padding: 5px;
-    font-size: 10px;
+.in-work {
+    padding: 10px;
+    border-radius: 16px;
     background-color: #BFBCFC;
-    border-radius: 15.5px;
 }
 .review {
-    margin: 10px;
-    padding: 5px;
-    font-size: 10px;
+    padding: 10px;
+    border-radius: 16px;
     background-color: #FAC89B;
-    border-radius: 15.5px;
 }
 .done {
-    margin: 10px;
-    padding: 5px;
-    font-size: 10px;
-    background-color: #C0EBC6;
-    border-radius: 15.5px;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #BEE8C4;
 }
-.card__header__options {
-    margin: 10px;
-    padding: 5px;
-    font-size: 10px;
-}
-.clicaveis {
-    color: gray;
+.clicaveis__da__header *{
     text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    gap: 8px;
 }
-.card__type__one {
-    margin: 10px auto auto auto;
-    padding: 10px;
-    background-color: #202123;
-    border-radius: 8px;
-    
+.tres__pontinhos {
+    letter-spacing: -2px;
+    text-decoration: none;
+    color: #4C4D4F;
 }
-.card__type__two {
-    margin: 10px auto auto auto;
+.clicavel__trespontinhos {
+    letter-spacing: -5px;
+    text-decoration: none;
+    color: #fff;
+}
+.card__tipo__um {
+    display: flex;
+    flex-direction: column;
+    min-width: 176px;
     padding: 10px;
-    background-color: #202123;
+    color: #fff;
     border-radius: 8px;
+    background-color: #202123;
+}
+.card__tipo__dois {
+    display: flex;
+    flex-direction: column;
+    min-width: 176px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #202123;
 }
 .card__class {
     display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
     justify-content: space-between;
-    font-size: 10px;
-    color: #606062;
 }
-.card__title {
+.card__class {
+    color: #4C4D4F;
+}
+.organizar__colaboradores__mais__low {
     display: flex;
-    margin: 2px auto ;
-    color: #fff;
-    font-size: 12.5px;
 }
-.card__colaborators {
-    display: flex;
-    justify-content: left;
-    align-items: center;
+.colaboradores {
+    width: 75px;
+    height: 30px;
 }
-.colaborador {
-    border-radius: 50%;
-}
-.card__image {
-    border-radius: 8px;
-}
-.card__vertical__divider {
+.colaboradores {
     position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden ;
-    margin: 5px;
+}
+.colaboradores .colaborador {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #202123;
+    top: 5px;
+}
+.colaboradores .colaborador0 {
+    left: 5px;
+    z-index: 1;
+}
+.colaboradores .colaborador1 {
+    left: 18px;
+    z-index: 2;
+}
+.colaboradores .colaborador2 {
+    left: 31px;
+    z-index: 3;
+}
+.colaboradores .colaborador3 {
+    left: 44px;
+    z-index: 4;
+}
+.low {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.low p {
+    font-size: 10px;
+    color: #595A5C;
+}
+.divisao__vertical {
+    width: 1px;
+    height: 20px;
+    background-color: #323335;
+}
+.divisao__horizontal {
     width: 100%;
     height: 1px;
-    background-color: #606062;
+    margin: 10px 0;
+    background-color: #323335;
+}
+.card__image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
 }
 .card__status {
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden ;
     display: flex;
-    margin: 10px auto auto 5px;
-    gap: 10px;
+    gap: 13px;
 }
-.card__status div{
+.card__status__texto__cinza {
+    color: #6A6A6C;
+}
+.card__status :nth-child(1){
     display: flex;
-    align-items: center;
+    font-size: 12px;
     gap: 3px;
-    font-size: 10px;
-    color: #606062;
 }
-.card__status__text__red {
+.card__status :nth-child(2){
+    display: flex;
+    font-size: 12px;
+    gap: 3px;
+}
+.card__status :nth-child(3){
+    display: flex;
+    font-size: 12px;
+    gap: 3px;
     color: #B45E4E;
-}
-.card__colaborators__organizer {
-    display: flex;
-    max-height: 30px;
-}
-.card__colaborators {
-    position: absolute;
-    overflow-x: hidden;
-    overflow-y: hidden ;
-    justify-content: center;
-    padding-top: 5px;
-}
-.colaborador2 {
-    position: relative;
-    right: 10px;
-}
-.colaborador3 {
-    position: relative;
-    right: 20px;
-}
-.colaborador4 {
-    position: relative;
-    right: 30px;
-}
-.card__horizontal__divisor {
-    position: relative;
-    left: 60px;
-    width: 1px;
-    background-color: #606062;
-    height: 18px;
-    margin: 5px;
-}
-.card__low {
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden ;
-    left: 65px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.card__low p {
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden ;
-    font-size: 10px;
-    color: #606062;
 }

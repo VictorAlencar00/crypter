@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid #212223;
+    background-color: #171819;
     padding: 20px;
 }
 .filters__left__side a {
@@ -29,11 +30,12 @@
     display: flex;
     align-items: center;
     padding: 5px;
+    gap: 8px;
     border: 1px solid#7F7F80;
     border-radius: 8px;
 }
 .right__side__clicaveis__activate {
-    border: 9px solid #202123;
+    border: 6px solid #202123;
     border-radius: 10px;
 }   
 .right__side__clicaveis__activate :nth-child(1){

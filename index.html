@@ -7,11 +7,91 @@
   <title>Crypter</title>
   <link rel="stylesheet" href="assets/styles/global.css" />
   <link rel="stylesheet" href="assets/styles/routes.css" />
+  <link rel="stylesheet" href="assets/styles/headeer.css">
 </head>
 
 <body id="container">
   <aside id="aside">aside</aside>
-  <header id="header">header</header>
+  <header id="header">
+      <div class="divbusca">
+       <input type="text" class="txtbusca" placeholder="Search Tasks..." />
+          <button class="botao__pesquisar">
+           
+         <img
+           class="botao__pesquisar__lupinha"
+           src="assets/img-header/procurar.png"
+           class="btnbusca"
+           alt="Buscar"
+           width="20px"
+           height="20px"
+          > 
+         
+          <img 
+          class="botao__pesquisar__brilho"
+          src="assets/img-header/brilhos.png" 
+          alt="brilho"
+          width="20px"
+          height="20px">
+          <img 
+          class="botao__pesquisar__s" 
+          src="assets/img-header/icon-s.png"
+          alt="botao com a letra s"
+          width="20px"
+         height="20px">
+       </button>
+       </div>
+
+         <button 
+         class="botao__pesquisar__usuarios">
+         <img 
+         src="assets/img-header/usuarios-alt.png" 
+         alt="Tres bonecos"
+         width="20px"
+         height="20px"> 
+         <P class="txtnome__icon">Assignees</P>
+       </button>
+        
+        <button 
+         class="botao__pesquisar__visualização">
+        <img 
+         src="assets/img-header/olho fino.png" 
+         alt="Olho" 
+         width="20px"
+         height="20px">
+         <p class="txtnome__icon">Show</p>
+       </button>
+
+        <button 
+         class="botao__pesquisar__pontinhos"> 
+         <img 
+         src="assets/img-header/tres-pontos-circulo.png" 
+         alt="Um circulo com tres pontos"
+         width="20px"
+         height="20px">
+         <p class="txtnome__icon">More</p>
+       </button>
+
+        <button 
+        class="botao__pesquisar__compartilhar">
+        <img 
+        src="assets/img-header/compartilhar.png"
+        alt="compartilhar"
+        width="15px"
+        height="15px">
+       <p class="txtshare__direita">Share</p>
+      </button>
+
+       <button 
+       class="botao__pesquisar__adiçao">
+       <img 
+       src="assets/img-header/mais.png" 
+       alt="adicionar"
+       width="15px"
+       height="15px">
+       <p class="txtadiçao__direita">Create New</p>
+     </button>
+
+   </header>
   <main id="content">
     <section id="description">
 
@@ -45,5 +125,3 @@
   </main>
   <script src="assets/js/index.js"></script>
 </body>
-
-</html>

@@ -32,7 +32,7 @@
 
 #description {
     background: blue;
-    height: 260px;
+    height: auto;
 }
 
 #cards {

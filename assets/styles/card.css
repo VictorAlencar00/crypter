@@ -1,0 +1,164 @@
+.organizar__cards {
+    display: flex;
+    flex-direction: row;
+}
+.card__principal {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 15px;
+    gap: 8px;
+    background-color: #171819;
+    border: 1px solid #232425;
+}
+.card__header {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.to-do {
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #C7F1FF;
+}
+.in-work {
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #BFBCFC;
+}
+.review {
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #FAC89B;
+}
+.done {
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #BEE8C4;
+}
+.clicaveis__da__header *{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    gap: 8px;
+}
+.tres__pontinhos {
+    letter-spacing: -2px;
+    text-decoration: none;
+    color: #4C4D4F;
+}
+.clicavel__trespontinhos {
+    letter-spacing: -5px;
+    text-decoration: none;
+    color: #fff;
+}
+.card__tipo__um {
+    display: flex;
+    flex-direction: column;
+    min-width: 176px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #202123;
+}
+.card__tipo__dois {
+    display: flex;
+    flex-direction: column;
+    min-width: 176px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #202123;
+}
+.card__class {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    justify-content: space-between;
+    color: #4C4D4F;
+}
+.organizar__colaboradores__mais__low {
+    display: flex;
+}
+.colaboradores {
+    width: 75px;
+    height: 30px;
+}
+.colaboradores {
+    position: relative;
+}
+.colaboradores .colaborador {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #202123;
+    top: 5px;
+}
+.colaboradores .colaborador0 {
+    left: 5px;
+    z-index: 1;
+}
+.colaboradores .colaborador1 {
+    left: 18px;
+    z-index: 2;
+}
+.colaboradores .colaborador2 {
+    left: 31px;
+    z-index: 3;
+}
+.colaboradores .colaborador3 {
+    left: 44px;
+    z-index: 4;
+}
+.low {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.low p {
+    font-size: 10px;
+    color: #595A5C;
+}
+.divisao__vertical {
+    width: 1px;
+    height: 20px;
+    background-color: #323335;
+}
+.divisao__horizontal {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+    background-color: #323335;
+}
+.card__image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card__status {
+    display: flex;
+    gap: 13px;
+}
+.card__status__texto__cinza {
+    color: #6A6A6C;
+}
+.card__status :nth-child(1){
+    display: flex;
+    font-size: 12px;
+    gap: 3px;
+}
+.card__status :nth-child(2){
+    display: flex;
+    font-size: 12px;
+    gap: 3px;
+}
+.card__status :nth-child(3){
+    display: flex;
+    font-size: 12px;
+    gap: 3px;
+    color: #B45E4E;
+}

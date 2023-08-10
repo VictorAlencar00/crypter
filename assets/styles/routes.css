@@ -1,6 +1,11 @@
 .routes__organizer {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    height: 50%;
+    flex-wrap: nowrap;
+>>>>>>> feature/content
     background-color: #171819;
     margin: 1px solid #808081;
 }

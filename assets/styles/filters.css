@@ -1,0 +1,44 @@
+.filters {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #212223;
+    background-color: #171819;
+    padding: 20px;
+}
+.filters__left__side a {
+    gap: 90px;
+}
+.menu__items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 45px;
+    color: #7F7F80;
+}
+.link__active {
+    color: #E8E8E9;
+}
+.filters__right__side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    color: #7F7F80;
+}
+.right__side__clicaveis {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border: 1px solid#7F7F80;
+    border-radius: 8px;
+}
+.right__side__clicaveis__activate {
+    border: 9px solid #202123;
+    border-radius: 10px;
+}   
+.right__side__clicaveis__activate :nth-child(1){
+    display: flex;
+    background-color: #202123;
+}
